@@ -11,7 +11,7 @@
   version of Magento CE you'd like to install, and `ORDERFLOW_VERSION` is the extension version you wish to provision with.
   Remember to use a helpful tag so you can skip this step in future.
   ```
-  docker build --build-arg MAGENTO_VERSION=1.9.4.1 -t orderflow-m1:1.9.4.1
+  docker build --build-arg MAGENTO_VERSION=1.9.4.1 -t orderflow-m1:1.9.4.1 .
   ```
 
 - Create a target directory for your demo store
